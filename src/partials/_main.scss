@@ -1,21 +1,30 @@
-.sectOne{
+main{
     background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-    background-position: center, bottom;
+    background-position: top center;
     background-repeat: no-repeat;
-    height: 450px;
+    background-size: cover;
+    padding-top: 20px;
+}
+.sectOne{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    // primo jumbotron
     .jumbotron1{
         color: $whiteText;
-        height: 450px;
-        width: 30%;
+        width: 40%;
         // background-color: red;
-        padding: $padding20;
+        padding: $spazio20;
         h2, h3, div{
-            padding: $padding10;
+            padding: $spazio10;
         }
 
         ul{
-            padding: $padding10;
+            padding: $spazio10;
             list-style: $listaul;
+            li{
+                padding: $spazio10;
+            }
         }
 
         .downloadTrial{
@@ -25,6 +34,42 @@
             div{
                 p, i{
                     padding: 3px;
+                }
+            }
+        }
+    }
+
+    .jumbotron2{
+        width: 30%;
+        color: $whiteText;
+        padding: $spazio30;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        img{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+        .priceBar{
+            .prezzo{
+                font-size: 30px;
+            }
+            .d1{
+                color: #999999;
+            }
+
+            .buyButton{
+                margin: 20px 0;
+                .buyNowButton{
+                    @include buyNowButton;
+                }
+            }
+
+            .limitedOffer{
+                @include limitedOfferPanel;
+                a{
+                    text-decoration: none;
                 }
             }
         }

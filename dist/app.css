@@ -49,17 +49,23 @@ body {
   color: #fff;
 }
 
-.sectOne {
+main {
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-  background-position: center, bottom;
+  background-position: top center;
   background-repeat: no-repeat;
-  height: 450px;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.sectOne {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .sectOne .jumbotron1 {
   color: #fff;
-  height: 450px;
-  width: 30%;
+  width: 40%;
   padding: 20px;
 }
 
@@ -74,9 +80,12 @@ body {
   list-style: none;
 }
 
+.sectOne .jumbotron1 ul li {
+  padding: 10px;
+}
+
 .sectOne .jumbotron1 .downloadTrial {
   padding: 3px;
-  margin-top: 20px;
   border: none;
   background-color: rgba(136, 136, 136, 0.5);
   color: #fff;
@@ -87,5 +96,50 @@ body {
 .sectOne .jumbotron1 .downloadTrial div p,
 .sectOne .jumbotron1 .downloadTrial div i {
   padding: 3px;
+}
+
+.sectOne .jumbotron2 {
+  width: 30%;
+  color: #fff;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.sectOne .jumbotron2 img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.sectOne .jumbotron2 .priceBar .prezzo {
+  font-size: 30px;
+}
+
+.sectOne .jumbotron2 .priceBar .d1 {
+  color: #999999;
+}
+
+.sectOne .jumbotron2 .priceBar .buyButton {
+  margin: 20px 0;
+}
+
+.sectOne .jumbotron2 .priceBar .buyButton .buyNowButton {
+  border: none;
+  padding: 10px 40px;
+  background-color: #009cff;
+  color: #fff;
+}
+
+.sectOne .jumbotron2 .priceBar .limitedOffer {
+  font-weight: 400;
+  color: #2c2c2c;
+  padding: 20px;
+  margin: 50px 0;
+  background-color: #e6e6e6;
+}
+
+.sectOne .jumbotron2 .priceBar .limitedOffer a {
+  text-decoration: none;
 }
 

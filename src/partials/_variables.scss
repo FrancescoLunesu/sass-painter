@@ -9,17 +9,34 @@ $whiteText: #fff;
 // formattazione liste ul
 $listaul: none;
 
-// padding
-$padding10: 10px;
-$padding20: 20px;
+// padding e margin
+$spazio10: 10px;
+$spazio20: 20px;
+$spazio30: 30px;
+$spazio40: 40px;
+$spazio50: 50px;
 
 // bottoni
 @mixin downloadTrialButton{
     padding: 3px;
-    margin-top: 20px;
     border: none;
     background-color: rgba(136, 136, 136, 0.5);
     color: #fff;
+}
+
+@mixin buyNowButton{
+    border: none;
+    padding: $spazio10 $spazio40;
+    background-color: #009cff;
+    color: $whiteText;
+}
+
+@mixin limitedOfferPanel{
+    font-weight: 400;
+    color: #2c2c2c;
+    padding: $spazio20;
+    margin: $spazio50 0;
+    background-color: #e6e6e6;
 }
 
 

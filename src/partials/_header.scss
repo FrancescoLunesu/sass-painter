@@ -12,7 +12,7 @@
             list-style: none;
             display: flex;
             li{
-                padding: $padding10;
+                padding: $spazio10;
             }
         }
     }
@@ -21,7 +21,7 @@
         color: $whiteText;
         width: 80%;
         margin: 0 auto;
-        padding: $padding10;
+        padding: $spazio10;
         ul{
             display: flex;
             justify-content: space-around;
