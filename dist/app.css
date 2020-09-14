@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #101010;
+  width: 100%;
+}
+
+.header .up-menu {
+  display: flex;
+  color: #989893;
+  justify-content: flex-end;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .up-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .up-menu ul li {
+  padding: 10px;
+}
+
+.header .navbar {
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header .navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+

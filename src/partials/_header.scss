@@ -1,0 +1,32 @@
+.header{
+    background-color: $headerBg;
+    width: 100%;
+    .up-menu{
+        display: flex;
+        color: $upMenuColor;
+        justify-content: flex-end;
+        width: 80%;
+        margin: 0 auto;
+
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                padding: 10px;
+            }
+        }
+    }
+
+    .navbar{
+        color: $navBarColor;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+    }
+}
