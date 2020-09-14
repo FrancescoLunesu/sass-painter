@@ -32,9 +32,26 @@
             align-items: center;
             list-style: $listaul;
             li{
+                position: relative;
                 a{
                     @include link;
                 }
+            }
+
+            li .scomparsa{
+                display: none;
+                position: absolute;
+                padding: $spazio20;
+                width: 300px;
+                background-color: $headerBg;
+                top: 20px;
+                p{
+                    padding: $spazio10;
+                }
+            }
+
+            li:hover .scomparsa{
+                display: block;
             }
         }
     }

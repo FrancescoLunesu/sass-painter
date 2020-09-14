@@ -49,9 +49,30 @@ body {
   list-style: none;
 }
 
+.header .navbar ul li {
+  position: relative;
+}
+
 .header .navbar ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.header .navbar ul li .scomparsa {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  width: 300px;
+  background-color: #101010;
+  top: 20px;
+}
+
+.header .navbar ul li .scomparsa p {
+  padding: 10px;
+}
+
+.header .navbar ul li:hover .scomparsa {
+  display: block;
 }
 
 .primaFascia {
