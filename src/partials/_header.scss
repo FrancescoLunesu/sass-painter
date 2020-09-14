@@ -13,6 +13,10 @@
             display: flex;
             li{
                 padding: $spazio10;
+                i{
+                    color: $iconColor;
+                    padding: 3px;
+                }
             }
         }
     }

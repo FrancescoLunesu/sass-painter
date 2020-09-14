@@ -1,14 +1,18 @@
-main{
+.primaFascia{
     background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
+}
+
+.container{
+    width: 90%;
 }
 .sectOne{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;
     // primo jumbotron
     .jumbotron1{
         color: $whiteText;
@@ -72,6 +76,27 @@ main{
                     text-decoration: none;
                 }
             }
+        }
+    }
+}
+
+.secondaFascia{
+    background-color: #e6e6e6;
+    width: 100%;
+}
+
+.secondNavBar{
+    width: 80%;
+    margin: 0 auto;
+    padding: $spazio20;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: $listaul;
+
+        li a{
+            @include link;
+            color: #000;
         }
     }
 }
