@@ -12,21 +12,26 @@
             list-style: none;
             display: flex;
             li{
-                padding: 10px;
+                padding: $padding10;
             }
         }
     }
 
     .navbar{
-        color: $navBarColor;
+        color: $whiteText;
         width: 80%;
         margin: 0 auto;
-        padding: 10px;
+        padding: $padding10;
         ul{
             display: flex;
             justify-content: space-around;
             align-items: center;
-            list-style: none;
+            list-style: $listaul;
+            li{
+                a{
+                    @include link;
+                }
+            }
         }
     }
 }

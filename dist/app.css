@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
   background-color: #101010;
   width: 100%;
@@ -38,5 +42,50 @@
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+.header .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sectOne {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  background-position: center, bottom;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.sectOne .jumbotron1 {
+  color: #fff;
+  height: 450px;
+  width: 30%;
+  padding: 20px;
+}
+
+.sectOne .jumbotron1 h2,
+.sectOne .jumbotron1 h3,
+.sectOne .jumbotron1 div {
+  padding: 10px;
+}
+
+.sectOne .jumbotron1 ul {
+  padding: 10px;
+  list-style: none;
+}
+
+.sectOne .jumbotron1 .downloadTrial {
+  padding: 3px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgba(136, 136, 136, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.sectOne .jumbotron1 .downloadTrial div p,
+.sectOne .jumbotron1 .downloadTrial div i {
+  padding: 3px;
 }
 

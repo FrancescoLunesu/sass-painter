@@ -1,5 +1,30 @@
+// stilizzazione header
 $headerBg: #101010;
 $upMenuColor: #989893;
 $upMenuIconColor: #009cff;
 
-$navBarColor: #fff;
+// testo colore bianco
+$whiteText: #fff;
+
+// formattazione liste ul
+$listaul: none;
+
+// padding
+$padding10: 10px;
+$padding20: 20px;
+
+// bottoni
+@mixin downloadTrialButton{
+    padding: 3px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(136, 136, 136, 0.5);
+    color: #fff;
+}
+
+
+// stilizzazione link
+@mixin link{
+    text-decoration: none;
+    color: #fff;
+}
